@@ -1,26 +1,26 @@
 {
-    "name": "wdydev/horoscope",
-    "description": "Daily/Weekly/Monthly/Yearly horoscope in English/Nepali",
-    "version" : "1.0.0",
-    "type": "library",
-    "require": {
-        "guzzlehttp/guzzle": "^6.2",
-        "paquettg/php-html-parser": "^1.7",
-        "php" : ">=5.4",
-        "ext-mbstring": "*"
+  "name": "wdydev/horoscope",
+  "description": "Daily/Weekly/Monthly/Yearly horoscope in English/Nepali",
+  "version" : "1.0.0",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^6.2",
+    "paquettg/php-html-parser": "^1.7",
+    "php" : ">=5.4",
+    "ext-mbstring": "*"
+  },
+  "authors": [
+    {
+      "name": "Sandeep Giri",
+      "email": "wdydev@gmail.com"
     },
-    "authors": [
-        {
-            "name": "Sandeep Giri",
-            "email": "wdydev@gmail.com"
-        },
-        {
-            "name": "Sumit Modi",
-            "email": "always.sumit07@gmail.com"
-        },
-    ],
-	"autoload": {
-    	"classmap": ["src/", "index.php"]
-    },
-    "minimum-stability": "stable"
+    {
+      "name": "Sumit Modi",
+      "email": "always.sumit07@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": ["src/", "index.php"]
+  },
+  "minimum-stability": "stable"
 }
