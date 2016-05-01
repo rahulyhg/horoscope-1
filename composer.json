@@ -1,0 +1,14 @@
+{
+  "name": "wdydev/horoscope",
+  "description": "Horoscopes in english and nepali",
+  "require": {
+    "guzzlehttp/guzzle": "^6.2",
+    "paquettg/php-html-parser": "^1.7"
+  },
+  "authors": [
+    {
+      "name": "Wdy Dev",
+      "email": "wdydev@gmail.com"
+    }
+  ]
+}
